@@ -3,6 +3,7 @@ document.getElementById('calculate').addEventListener('click', calculateArea)
 let h = 0
 let a = 0
 let b = 0
+let number = 0
 
 function calculateArea () {
   h = document.getElementById('insert1').value
@@ -13,6 +14,6 @@ function calculateArea () {
   a = parseInt(a)
   b = parseInt(b)
 
-  number = (a+b)/2*h
+  number = (a + b) / 2 * h
   document.getElementById('answer').value = number
 }
